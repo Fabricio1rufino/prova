@@ -1,0 +1,42 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+section {
+    width: 30%;
+}
+
+/* Estilos específicos para cada seção */
+.editor, .visualizacao, .biblioteca {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Estilos para mobile */
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+    section {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
