@@ -54,4 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         container.appendChild(visualizador.container);
     }
+    function vizualizartour(arquivo){
+        document.documentElement.innerHTML = arquivo
+    }
 });
