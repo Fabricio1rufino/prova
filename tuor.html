@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tours Virtuais Personalizados</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="photo-sphere-viewer.js" defer></script>
+    <script src="/photo-sphere-viewer.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,12 +15,14 @@
         <section class="editor">
             <h2>Editor de Tours</h2>
             <input type="file" id="fileInput" accept="image/*" multiple>
+            <input type="text" id="tourNameInput" placeholder="Nome do Tour">
             <button id="importar-tour">Importar Tour</button>
             <div id="tour-preview"></div>
             <div id="viewer"></div>
         </section>
         <section class="visualizacao" id="tour-viewer">
             <h2>Visualização de Tours</h2>
+            <div id="panorama-container"></div>
         </section>
         <section class="biblioteca">
             <h2>Biblioteca de Tours</h2>
