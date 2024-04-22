@@ -30,6 +30,16 @@ section {
     border-radius: 5px;
 }
 
+/* Estilos para o contêiner do visualizador */
+.viewer-container {
+    width: 100%;
+    height: 400px; /* Ajuste conforme necessário */
+    margin-bottom: 20px; /* Espaçamento entre os visualizadores */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Para esconder qualquer parte do visualizador que ultrapasse o contêiner */
+}
+
 /* Estilos para mobile */
 @media only screen and (max-width: 600px) {
     main {
